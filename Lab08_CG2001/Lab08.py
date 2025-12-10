@@ -1,6 +1,7 @@
 
 #Can be run using the pre-existing database file included in the instance folder. 
 #I used flask and SQLAlchemy because I ran into issues using CGI that I could not resolve. 
+#This is a project that allows the user to add and delete students/exam scores to a database. It also allows for the calculation of an average score for a student. 
 
 from flask import Flask, render_template, request, redirect
 from flask_sqlalchemy import SQLAlchemy
